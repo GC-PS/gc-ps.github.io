@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html manifest="cache.manifest">
 <head>
-    <title>PS4 9.00 FW Host v2.8 by Gaming City | Manual Exploitation</title>
-
-    <script src="int64.js"></script>
-    <script src="rop.js"></script>
-    <script src="kexploit.js"></script>
-    <script src="webkit.js"></script>
-    <link rel="stylesheet" href="../style.css" />
+<title>PS4 9.00 FW Host v2.8 by Gaming City | Manual Exploitation</title>
+<link rel="stylesheet" href="../style.css">
+<script src="int64.js"></script>
+<script src="rop.js"></script>
+<script src="kexploit.js"></script>
+<script src="webkit.js"></script>
 </head>
 <body>
 <script>
@@ -19,7 +18,7 @@ function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Cac
 <br>
 <div id="menu">
 <h1 style="font-size: 18px;color: yellow;">Main Payloads</h1>
-<button class="btn" onmouseover="msgs.innerHTML='GoldHEN v2.4b17.3 for 9.00 FW'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by Gaming City'" onclick="load_goldhenbeta()"> GoldHEN v2.4b17.3 </button>
+<button class="btn" onmouseover="msgs.innerHTML='GoldHEN v2.4b18.3 for 9.00 FW'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by Gaming City'" onclick="load_goldhenbeta()"> GoldHEN v2.4b18.3 </button>
 <button class="btn" onmouseover="msgs.innerHTML='GoldHEN v2.3 for 9.00 FW'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by Gaming City'" onclick="load_goldhen23()"> GoldHEN v2.3 </button>
 <button class="btn" onmouseover="msgs.innerHTML='Send a Payload using port 9020'" onmouseout="msgs.innerHTML='PS4 9.00 FW Host v2.8 by Gaming City'" onclick="load_binloader()"> Bin Loader </button>
 <br>
@@ -265,9 +264,9 @@ LoadedMSG = "Linux Loader Launched ..."
 }
 
 function load_goldhenbeta(){
-msgs.innerHTML="Loading GoldHEN v2.4b17.3... Please Wait";
-LoadedMSG = "GoldHEN v2.4b17.3 Loaded ...";
-PLfile = "goldhen_2.4b17.3.bin";
+msgs.innerHTML="Loading GoldHEN v2.4b18.3... Please Wait";
+LoadedMSG = "GoldHEN v2.4b18.3 Loaded ...";
+PLfile = "goldhen_2.4b18.3.bin";
 load_poc();
 }
 
