@@ -12,4 +12,3 @@ PS5 Firmwares: `1.XX` `5.XX`
 
 Download link for the PS5 host shortcut .pkg file:
 https://www.mediafire.com/file/dh3tzdvfmcznmrs/NPXS40138_%2528UMTX2%2529.pkg/file
-
