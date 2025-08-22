@@ -1,7 +1,7 @@
 CACHE MANIFEST 
 
 ../img.jpg
-../style.css
+../style.css?v=2025
 app2usb.bin
 arabic-guy100.bin
 arabic-guy127.bin
@@ -20,7 +20,7 @@ fan-threshold70.bin
 fan-threshold75.bin
 ftp.bin
 goldhen_2.3_505.bin
-goldhen_2.4b18.3.bin
+goldhen_2.4b18.5.bin
 index.html
 kernel-dumper.bin
 Lamance-v0.9-1.38.bin
